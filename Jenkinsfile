@@ -6,7 +6,7 @@ node{
 	}
 
 	stage('Build image'){
-		app = docker.build('bassirou/nginx')
+		app = docker.build("bassirou/nginx")
 	}
 
 	stage('Test image'){
